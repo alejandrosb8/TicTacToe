@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<div class="game_zone">
+				<div class="game_info">
+					<p class="info_player player-one" id="player-one">Player One: 0</p>
+					<p class="info_player player-two" id="player-two">Player Two: 0</p>
+				</div>
+				<div class="mid-container">
+					<div class="grid-container">
+						<div class="cell" id="cell-0"></div>
+						<div class="cell" id="cell-1"></div>
+						<div class="cell" id="cell-2"></div>
+						<div class="cell" id="cell-3"></div>
+						<div class="cell" id="cell-4"></div>
+						<div class="cell" id="cell-5"></div>
+						<div class="cell" id="cell-6"></div>
+						<div class="cell" id="cell-7"></div>
+						<div class="cell" id="cell-8"></div>
+					</div>
+					<div class="button-container">
+						<button id="humanBtn" class="active">VS Human</button>
+						<button id="easyBtn">VS Easy AI</button>
+						<button id="difficultBtn">VS Difficult AI</button>
+					</div>
+				</div>
+				<p class="win-text"><br /></p>
+			</div>
+		</main>
+		<script src="./main.js"></script>
+	</body>
+</html>

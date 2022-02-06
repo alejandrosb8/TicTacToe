@@ -187,7 +187,6 @@ const gameController = (() => {
 					if (board[i][j].textContent == '') {
 						board[i][j].textContent = 'o';
 						let score = minimax(board, 0, false);
-						console.log(score);
 						board[i][j].textContent = '';
 						if (score > bestScore) {
 							bestScore = score;
